@@ -1,7 +1,7 @@
-name: awesome_snackbar_content
+name: rt_awesome_snackbar_content
 description: Uplift your snackbar experience with various alert messages i.e. success, failure, help or warning with unique UI design.
-version: 0.1.3
-homepage: https://github.com/mhmzdev/awesome_snackbar_content
+version: 0.1.4
+homepage: https://github.com/pravindodia/rt_awesome_snackbar_content
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
