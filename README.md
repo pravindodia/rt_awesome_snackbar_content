@@ -6,6 +6,7 @@ A package that lets you uplift your SnackBar or MaterialBanner experience in the
 - `title`: Top label that will be shown in the body
 - `message`: Body message reflecting some error message, success message etc.
 - `color`: Color of SnackBar body
+- `showCloseButton`: Close button of SnackBar body, true or false, default: true.
 - `contentType`: ContentType class reflecting failure, success, help or warning.
 - `inMaterialBanner`: Simply configure the working according to `showMaterialBanner`
 
@@ -22,12 +23,12 @@ dependencies:
   flutter:
       sdk: flutter
 
-  awesome_snackbar_content: <latest-package>
+  rt_awesome_snackbar_content: <latest-package>
 ```
 
 Then import it in your flutter project:
 ```
-import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
+import 'package:rt_awesome_snackbar_content/awesome_snackbar_content.dart';
 ```
 
 ## 👀 SnackBar Looks
