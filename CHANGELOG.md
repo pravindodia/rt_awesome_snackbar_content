@@ -1,3 +1,8 @@
+## 0.1.4
+
+* 
+* `showCloseIcon` properties added
+  
 ## 0.1.3
 
 * 
