@@ -1,3 +1,7 @@
+## 0.1.6
+
+* Minor fix and package name changes to avoid conflict
+
 ## 0.1.5
 
 * Minor fix with latest flutter
