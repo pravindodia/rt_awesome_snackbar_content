@@ -1,3 +1,7 @@
+## 0.1.5
+
+* Minor fix with latest flutter
+
 ## 0.1.4
 
 * 
