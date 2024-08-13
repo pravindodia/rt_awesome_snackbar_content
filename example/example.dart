@@ -15,7 +15,7 @@ class AweseomSnackBarExample extends StatelessWidget {
               child: const Text('Show Awesome SnackBar'),
               onPressed: () {
                 const snackBar = SnackBar(
-                  /// need to set following properties for best effect of awesome_snackbar_content
+                  /// need to set following properties for best effect of rt_awesome_snackbar_content
                   elevation: 0,
                   behavior: SnackBarBehavior.floating,
                   backgroundColor: Colors.transparent,
@@ -39,7 +39,7 @@ class AweseomSnackBarExample extends StatelessWidget {
               child: const Text('Show Awesome Material Banner'),
               onPressed: () {
                 const materialBanner = MaterialBanner(
-                  /// need to set following properties for best effect of awesome_snackbar_content
+                  /// need to set following properties for best effect of rt_awesome_snackbar_content
                   elevation: 0,
                   backgroundColor: Colors.transparent,
                   forceActionsBelow: true,

@@ -28,7 +28,7 @@ dependencies:
 
 Then import it in your flutter project:
 ```
-import 'package:rt_awesome_snackbar_content/awesome_snackbar_content.dart';
+import 'package:rt_awesome_snackbar_content/rt_awesome_snackbar_content.dart';
 ```
 
 ## 👀 SnackBar Looks
@@ -62,11 +62,11 @@ Below are the looks of various types in package used as Snackbar
 <img src="https://user-images.githubusercontent.com/43790152/200166470-88198e42-2cf6-4628-a18b-85f856960208.png" height='600px' />
 
 ### 💻 Example
-Below is a basic example usage of the `awesome_snackbar_content`
+Below is a basic example usage of the `rt_awesome_snackbar_content`
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
+import 'package:rt_awesome_snackbar_content/rt_awesome_snackbar_content.dart';
 
 class AweseomSnackBarExample extends StatelessWidget {
   const AweseomSnackBarExample({Key? key}) : super(key: key);
@@ -82,7 +82,7 @@ class AweseomSnackBarExample extends StatelessWidget {
               child: const Text('Show Awesome SnackBar'),
               onPressed: () {
                 final snackBar = SnackBar(
-                  /// need to set following properties for best effect of awesome_snackbar_content
+                  /// need to set following properties for best effect of rt_awesome_snackbar_content
                   elevation: 0,
                   behavior: SnackBarBehavior.floating,
                   backgroundColor: Colors.transparent,

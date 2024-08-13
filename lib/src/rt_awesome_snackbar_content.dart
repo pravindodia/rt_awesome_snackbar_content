@@ -112,7 +112,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
                 width: size.width * 0.05,
                 colorFilter:
                     _getColorFilter(hslDark.toColor(), ui.BlendMode.srcIn),
-                package: 'awesome_snackbar_content',
+                package: 'rt_awesome_snackbar_content',
               ),
             ),
           ),
@@ -138,14 +138,14 @@ class AwesomeSnackbarContent extends StatelessWidget {
                   height: size.height * 0.06,
                   colorFilter:
                       _getColorFilter(hslDark.toColor(), ui.BlendMode.srcIn),
-                  package: 'awesome_snackbar_content',
+                  package: 'rt_awesome_snackbar_content',
                 ),
                 Positioned(
                   top: size.height * 0.015,
                   child: SvgPicture.asset(
                     assetSVG(contentType),
                     height: size.height * 0.022,
-                    package: 'awesome_snackbar_content',
+                    package: 'rt_awesome_snackbar_content',
                   ),
                 )
               ],
@@ -195,7 +195,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
                             child: SvgPicture.asset(
                               AssetsPath.failure,
                               height: size.height * 0.022,
-                              package: 'awesome_snackbar_content',
+                              package: 'rt_awesome_snackbar_content',
                             ),
                           )
                         : Container(),
